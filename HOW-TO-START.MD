@@ -5,8 +5,6 @@ This document explains how to create the two accounts you’ll use throughout th
 1. **GitHub** — where your code and assignments are stored.
 2. **StackBlitz** — an in-browser coding environment that connects directly to GitHub.
 
-Estimated time: **10–15 minutes**
-
 ---
 
 ## 🧱 1. Create a GitHub Account
