@@ -62,7 +62,7 @@ Answer in 2–3 sentences each:
 ## 💡 Bonus Challenge
 Replace the Chuck Norris API with another public one, such as:
 - `https://api.adviceslip.com/advice`
-- `https://api.catfact.ninja/fact`
+- `https://api.kanye.rest/`
 
 Update the text and layout so the page becomes a **Quote of the Day** or **Random Fact** generator.
 
