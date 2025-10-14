@@ -51,5 +51,3 @@ Estimated time: **10–15 minutes**
    - Open any GitHub repo directly via URL:  
      `https://stackblitz.com/github/<username>/<repository>`
    - Or push new projects from StackBlitz to GitHub.
-
-Example:
