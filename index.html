@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Frontend–Backend Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 40px; }
+    #joke { margin-top: 20px; padding: 10px; border: 1px dashed #888; width: 60%; }
+    button { padding: 8px 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Frontend & Backend Communication</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>This page calls a public backend API for a random joke.</p>
+      <button id="btn">Get Joke</button>
+      <article id="joke"></article>
+    </section>
+  </main>
+
+  <script>
+    const out = document.getElementById('joke');
+    document.getElementById('btn').onclick = async () => {
+      out.textContent = "Loading...";
+      const r = await fetch("https://api.chucknorris.io/jokes/random");
+      const data = await r.json();
+      out.textContent = data.value;
+    };
+  </script>
+</body>
+</html>
